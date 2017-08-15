@@ -1,22 +1,49 @@
-=   AMI Coding Guidelines
+= AMI Coding Guidelines
 :toc: left
+:toc-title:
+:toclevels: 4
+:linkattrs:
 
-  Introduction:::
-    . Fedora
-      * Desktop
-    . Ubuntu
-      * Desktop
-      * Server
-  BSD:::
-    . FreeBSD
-    . NetBSD
+// include a doc
+//include::./docs/introduction.adoc[]
 
-Cloud Providers::
-  PaaS:::
-    . OpenShift
-    . CloudBees
-  IaaS:::
-    . Amazon EC2
-    . Rackspace
-----
+== Purpose
 
+=== Intended Audience
+This document is intended for software developers who are already familiar with an n-tier application architecture consisting of a javascript frontend and java at the backend.
+
+=== Requirements Traceability
+
+In order to ensure that each requirement is implemented and to provide full requirements traceability, developers will need to insert the requirements number in the source code comments. Inserting the requirements number in the source code is essential in ensuring that the developers did not forget to develop a system requirement while making it much easier to find where each requirement is implemented.
+
+=== Reference Documentation
+
+|====
+| Document | Description
+| Solution Architecture | Overview of the Program and an explanation of how the solution architecture will support and address the business areas.
+| Spring Framework | Reference documentation for the spring framework
+| Git (Version Control) | https://git-scm.com/[https://git-scm.com/]
+| Apache Maven | http://maven.apache.org/[http://maven.apache.org/]
+|====
+
+== Application Development
+
+=== Development Environment
+
+=== Project Naming Standards
+
+== Java Coding Conventions
+
+=== Spacing
+
+=== Indentation
+
+=== Naming Conventions
+
+==== Package Names
+
+==== Class Names
+
+=== Comments
+
+== Javascript Coding Guidelines
